@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    /*para el control del margen en diferentes navegadores y que se mantenga pegado todo el body*/
+}
+
+.menu
+{
+    background-color: blueviolet; /*colorear el fondo de la parte menu*/
+    height: 50px;
+}
+
+.menu ul 
+{
+    width: 900px; /*aumentar el color del cuadro de     .elemento a:hover */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento
+{
+    display: inline; /* poner en linea el texto o lo de elemento*/
+    margin: 0 20px;
+    /*marigin: superior derecha inferior izquierda*/
+
+}
+
+.elemento a
+{
+    font-size: 24px;
+    color:rgb(12, 12, 12);
+    text-decoration: rgb(37, 155, 26); /*quitar el subrayado de los enlaces*/
+    line-height: 50px; /* para el texto alinear su altura*/
+    font-family: 'Shizuru', cursive;
+    transition: color 0.3s; /*para que el color tarde un tiempo antes de cambiar*/
+    transition: background-color 1.7s;
+}
+
+/*
+.menu .elemento:hover
+{
+    background-color: rgb(0, 195, 255);
+}
+*/ /* para colorear el fondo de las letras*/
+
+/*
+.elemento a:hover
+{
+    background-color: violet; 
+}*/ /*para que cuando se pase el mmouse sobre el texto se colore el fondo del texto*/
+
+.elemento a:hover
+{
+    color: wheat; /* cambiar el color de la letra*/
+    font-size: 50px;  /*agrandar la letra cuando se pase el mouse*/
+    background-color: rgb(16, 18, 19);
+}
+
+
+
+
+

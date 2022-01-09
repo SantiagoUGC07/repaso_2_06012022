@@ -1,0 +1,51 @@
+body
+{
+    background-color: lightgray;
+}
+
+.contenedor
+{
+    display: flex; /*para alinear elemento como cajas de div en horizontal*/
+    height: 600px;
+    border: 3px solid rgb(255, 0, 170) ;
+    justify-content: center; /*para centar los elementos como cajas*/
+
+    /*justify-content: space-around; *//*para dar un espacio entre los elementos izq y dere*/
+
+    /*justify-content: space-between; */ /*para dar espacio solo entre los elementos*/
+
+    /*align-items: center;*/ /*para dar posicicion a los elementos arriba y abajo*/
+
+    justify-content: space-evenly; /*espacio equitativo de los elementos en lo ancho de la pantalla*/
+
+    align-items: flex-start; /*los elementos se ajustan su anchura cuando se agranda o disminuye la pantalla */
+
+    flex-wrap: wrap; /*se colocan los elementos por debajo cuando la pantalla disminuye su tamaño*/
+}
+
+.caja
+{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.rojo
+{
+    background-color: red;
+}
+
+.azul
+{
+    background-color: blue;
+}
+
+.verde
+{
+    background-color: green;
+}
+
+.amarillo
+{
+    background-color: yellow;
+}

@@ -1,0 +1,75 @@
+
+body
+{
+    background-color: #D3D3D3;
+    
+}
+
+.titulo-principal
+{
+    text-align: center;
+    letter-spacing: 10px; /*para separar las letras*/
+}
+
+.contenido
+{
+    /*medidas relativas 800px o porcentajes como 90%*/
+    width: 70%; /*un limite de ancho para el texto toma el 90 del 100 de la pantalla*/
+    margin: 0 auto; /*distribuye el espacio ala izq y derecha*/
+}
+
+.contenido .subtitulo
+{
+    background-color: grey;
+    color: white;
+    padding: 10px 5px;/*10px arriba y abajo, y 5 px izq y derecha*/
+}
+
+.contenido .text-imagen
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contenido .imagen
+{
+    float: left;
+}
+
+.contenido .texto p
+{
+    text-align-last: justify;
+    text-indent: 20px;
+}
+
+.contenido .texto
+{
+    margin-left: 130px;
+}
+
+.contenido .texto .rojo
+{
+    color: red;
+    font-style: italic;
+}
+
+.contenido .texto .negro
+{
+    color: black;
+    background-color: white;
+}
+
+/*
+.contenido .imagen img
+{
+    height: 400px;
+    width: 60px;
+}
+*/
+/*
+.contenido .clearfix
+{
+    float: none;
+    clear: both;
+} */ /*para limpiar el contenido y que el contenido se coloque debajo del elemento que se encuentra alado*/
+
